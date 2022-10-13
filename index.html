@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>week 5 weekend assignment</title>
+    <style>
+        body{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            /* height: 100vh; */
+            /* overflow: hidden; */
+        }
+        table{
+            border-radius: 20px;
+            padding: 2em;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            max-width: 600px;
+            margin:0 auto;
+            /* border:2px solid  red; */
+            background-color: black;
+        }
+    tr,th,td{
+        text-align: center;
+            border: 2px solid black;
+            padding: 10px;
+            background-color: rgba(135, 207, 235, 0.219);
+            color: white;
+        }
+
+        img{
+            /* margin: 40px;
+            padding: 2em; */
+            max-width: 400px;
+        }
+        section{
+            padding: 8em;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <th rowspan="3">Day</th>
+            <th colspan="3">Seminar</th>
+
+        </tr>
+        <tr>
+            <th colspan="2">Schedule</th>
+            <th rowspan="2">Topic</th>
+        </tr>
+        <tr>
+            <th>Begin</th>
+            <th>End</th>
+        </tr>
+        <tr>
+            <td rowspan="2">Monday</td>
+            <td rowspan="2">8:00 a.m</td>
+            <td rowspan="2">5:00 p.m</td>
+            <td>Introduction to XML</td>
+        </tr>
+        <tr>
+            <td>Validity: DTD and Relax NG</td>
+        </tr>
+        <tr>
+            <td rowspan="3">Tuesday</td>
+            <td rowspan="1">8:00 a.m.</td>
+            <td rowspan="1">11:00 a.m.</td>
+            <td rowspan="2">XPath</td>
+        </tr>
+        <tr>
+            <td rowspan="1">11:00 a.m.</td>
+            <td rowspan="1">2:00 p.m.</td>
+        </tr>
+        <tr>
+            <td>2:00 p.m.</td>
+            <td>5:00 p.m</td>
+            <td rowspan="1">XSL Transformations</td>
+        </tr>
+        <tr>
+            <td rowspan="1">Wednesday</td>
+            <td rowspan="1">8:00 a.m.</td>
+            <td rowspan="1">12:00 p.m.</td>
+            <td rowspan="2">XSL Formatting Objects</td>
+        </tr>
+        
+    </table>
+
+    <section>
+        <ul>
+            <li>Difference between nth-child and nth-of-type in css-support with examples</li>
+            As a general rule,<b>if you want to select an interval of a sector regardless of the type of element it is, use nth-child.</b> However if you want to select a specific type only and apply an interval selection from there, use nth-of-type.
+            <img src="./nth-term.PNG" alt="">
+            <br>
+            <img src="./nth-term.PNG 2.PNG" alt="">
+        </ul>
+    </section>
+</body>
+</html>
